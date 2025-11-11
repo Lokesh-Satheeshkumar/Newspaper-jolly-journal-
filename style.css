@@ -1,0 +1,142 @@
+ .text-box {
+    display: inline-block; 
+ position:initial;   /* Shrinks to fit the content */
+    border: 2px solid rgb(28, 27, 27);     /* Border style */
+    padding: 10px 20px;         /* Space inside the box */
+    border-radius: 5px;        /* Rounded corners */
+ 
+}
+.header{
+    
+    position:static;
+    display:flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   }
+   .top{
+     /* background-color: tan; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+
+   }
+.header img{
+  
+    width: 70px;
+    height: 50px;
+}
+
+.header span{
+    color: brown;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight:bold;
+}
+body {
+    line-height:20px;
+    border: 1px solid black;  
+    margin: 20;                
+    padding: 10px;           
+    box-sizing: border-box;  
+}
+
+.breaking{
+    color: chocolate;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.breaking span{
+    color: black;
+}
+
+.headimg{
+    align-items:  center;
+    display: flex;
+    padding:100px;
+    align-items:start;
+    justify-content:start;
+    gap: 100px;
+
+}
+
+.headimg img{
+    border: 3px solid black;
+
+
+}
+
+.headimg p{
+    font-size: 18px;
+    line-height: 2;
+    width: 600px;
+}
+
+.linkimg:hover{
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Shadow effect */
+    cursor: pointer; 
+}
+.news{
+     gap:20px;
+    display: flex;
+    padding: 10px;
+    align-items: first baseline;
+    justify-content: first baseline;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 30x;
+    gap: 30px;
+    /* column-count: 3;
+    column-gap: 20px; */
+}
+
+
+/* .news1{
+    line-height:2;
+    width:300px;
+} */
+
+
+.option{
+    display: flex;
+    flex-direction: row;
+    gap:50xp;
+    margin: 50xp;
+    margin-top: 100px;
+    
+margin-left: 300px;
+    column-gap: 100px;
+}
+
+
+.button{
+    background-color:aliceblue;
+    cursor:pointer;
+    display: flex;
+    width: 65px;
+    height: 20px;
+    border-radius: 30px;
+ 
+}
+.buttont{
+    background-color:aliceblue;
+    cursor:pointer;
+    display: flex;
+    width: 120px;
+    height: 20px;
+    border-radius: 30px;
+ 
+
+button:hover{
+transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4); /* Shadow effect */
+    
+}
